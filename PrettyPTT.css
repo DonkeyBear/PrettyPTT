@@ -1,0 +1,69 @@
+:root {
+  --color-gray-1: #121212;
+  --color-gray-2: #181818;
+  --color-gray-3: #222222;
+  --color-gray-4: #323232;
+  --color-gray-5: #383838;
+  --color-gray-6: #4c4c4c;
+  --color-gray-7: #aaa;
+  --color-blue-1: #23315e;
+  --color-blue-2: #1e3771;
+  --color-yellow-1: #bdb643;
+  --color-yellow-2: #ee8;
+}
+
+#action-bar-container, .r-list-container, .b-list-container, .bbs-screen {
+  background-color: transparent;
+}
+
+body {
+  background-color: var(--color-gray-1);
+}
+
+#logo {
+  color: var(--color-yellow-2);
+}
+
+#topbar-container {
+  background-color: var(--color-blue-1);
+}
+
+/* -------------------- 看板貼文列表 -------------------- */
+
+/* 貼文列表分隔線 */
+.r-list-sep {
+  background-color: var(--color-gray-4);
+  height: 2px;
+  margin: 1.5ex 0;
+}
+
+/* 貼文列表的貼文標題區塊 */
+.r-ent {
+  background-color: var(--color-gray-2);
+}
+
+/* -------------------- 貼文 -------------------- */
+
+/* 內文 */
+.bbs-screen {
+  line-height: 1.5;
+}
+
+/* 頂部區域 */
+.article-metaline, .article-metaline-right {
+  line-height: 100%;
+}
+.article-metaline, .article-meta-value {
+  background-color: var(--color-blue-2);
+}
+.article-meta-tag {
+  color: var(--color-blue-2);
+}
+
+/* 推文 */
+.push-userid {
+  color: var(--color-yellow-2);
+}
+.push-content {
+  color: var(--color-yellow-1);
+}
